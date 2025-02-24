@@ -1,0 +1,70 @@
+/* carDetails.css */
+.car-details-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #8693b5, #59a0e7);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #0c6a8a;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .car-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #3e372b;
+  }
+  
+  p strong {
+    color: #1129c5;
+  }
+  
+  .back-button, .book-button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 15px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button {
+    background: #31b311;
+    color: white;
+    border: none;
+  }
+  
+  .book-button {
+    background: #7a050564;
+    color: white;
+    border: none;
+  }
+  
+  .back-button:hover {
+    background: #ff4f5a;
+  }
+  
+  .book-button:hover {
+    background: #e84118;
+    transform: scale(1.05);
+  }
+  
