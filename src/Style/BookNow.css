@@ -1,0 +1,48 @@
+.book-now-container {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .car-details img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .car-details h2 {
+    margin: 10px 0;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .booking-form label {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .booking-form input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .confirm-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #0056b3;
+  }
+  
